@@ -1,4 +1,4 @@
-﻿namespace EDU.Common
+﻿namespace EDU.Common.MediaTypes
 {
     public static class MediaTypeHeader
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace EDU.Common.Caching
+namespace EDU.Common.Caching.Interfaces
 {
     public interface ICachingErrorHandler
     {

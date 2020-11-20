@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
-namespace EDU.Common.Caching
+namespace EDU.Common.Caching.Interfaces
 {
     public interface ISystemRedisErrorBusiness
     {

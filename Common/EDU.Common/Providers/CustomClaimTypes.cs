@@ -1,5 +1,5 @@
-﻿namespace EDU.Common
-{
+﻿namespace EDU.Common.Providers
+{ 
     public static class CustomClaimTypes
     {
         public const string Permissions = "permissions";

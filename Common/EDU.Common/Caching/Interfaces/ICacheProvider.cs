@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EDU.Common.Caching
+namespace EDU.Common.Caching.Interfaces
 {
     public interface ICacheProvider : ICacheProviderAsync
     {
