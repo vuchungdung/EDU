@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "EDU.SystemModel/1.0.0": {
+        "runtime": {
+          "EDU.SystemModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EDU.SystemModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

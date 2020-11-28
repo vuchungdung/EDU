@@ -1,0 +1,14 @@
+E:\EDU\Services\EDU.Services\obj\Debug\netcoreapp3.1\EDU.Services.csprojAssemblyReference.cache
+E:\EDU\Services\EDU.Services\obj\Debug\netcoreapp3.1\EDU.Services.AssemblyInfoInputs.cache
+E:\EDU\Services\EDU.Services\obj\Debug\netcoreapp3.1\EDU.Services.AssemblyInfo.cs
+E:\EDU\Services\EDU.Services\obj\Debug\netcoreapp3.1\EDU.Services.csproj.CoreCompileInputs.cache
+E:\EDU\Services\EDU.Services\bin\Debug\netcoreapp3.1\EDU.Services.deps.json
+E:\EDU\Services\EDU.Services\bin\Debug\netcoreapp3.1\EDU.Services.dll
+E:\EDU\Services\EDU.Services\bin\Debug\netcoreapp3.1\EDU.Services.pdb
+E:\EDU\Services\EDU.Services\bin\Debug\netcoreapp3.1\EDU.Common.dll
+E:\EDU\Services\EDU.Services\bin\Debug\netcoreapp3.1\EDU.DataModel.dll
+E:\EDU\Services\EDU.Services\bin\Debug\netcoreapp3.1\EDU.Common.pdb
+E:\EDU\Services\EDU.Services\bin\Debug\netcoreapp3.1\EDU.DataModel.pdb
+E:\EDU\Services\EDU.Services\obj\Debug\netcoreapp3.1\EDU.Services.csproj.CopyComplete
+E:\EDU\Services\EDU.Services\obj\Debug\netcoreapp3.1\EDU.Services.dll
+E:\EDU\Services\EDU.Services\obj\Debug\netcoreapp3.1\EDU.Services.pdb

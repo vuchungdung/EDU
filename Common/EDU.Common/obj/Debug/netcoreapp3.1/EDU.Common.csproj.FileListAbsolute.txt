@@ -1,0 +1,8 @@
+E:\EDU\Common\EDU.Common\bin\Debug\netcoreapp3.1\EDU.Common.deps.json
+E:\EDU\Common\EDU.Common\bin\Debug\netcoreapp3.1\EDU.Common.dll
+E:\EDU\Common\EDU.Common\obj\Debug\netcoreapp3.1\EDU.Common.AssemblyInfoInputs.cache
+E:\EDU\Common\EDU.Common\obj\Debug\netcoreapp3.1\EDU.Common.AssemblyInfo.cs
+E:\EDU\Common\EDU.Common\obj\Debug\netcoreapp3.1\EDU.Common.csproj.CoreCompileInputs.cache
+E:\EDU\Common\EDU.Common\bin\Debug\netcoreapp3.1\EDU.Common.pdb
+E:\EDU\Common\EDU.Common\obj\Debug\netcoreapp3.1\EDU.Common.dll
+E:\EDU\Common\EDU.Common\obj\Debug\netcoreapp3.1\EDU.Common.pdb

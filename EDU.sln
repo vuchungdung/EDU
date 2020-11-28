@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIGateway", "APIGateway", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway.Web", "APIGateway\Gateway.Web\Gateway.Web.csproj", "{A26DD872-6BB9-4A3E-8BD9-8663AFD4810A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{BF10433B-F4FF-4AE0-83A6-E1C5B418A463}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{3C41CE07-6EBB-40A5-A03D-80862F387E59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7BCCF524-288B-442D-A687-1BBC03840E97}"
@@ -22,6 +20,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDU.SystemModel", "Models\EDU.SystemModel\EDU.SystemModel.csproj", "{E54C7BF3-562A-4EAB-9568-9685ECD4CFB7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDU.Services", "Services\EDU.Services\EDU.Services.csproj", "{1333A25F-3403-4B03-AEE2-43F20CE1B4BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{EEB97031-9A92-46E6-8043-A67D78095C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDU.User", "Microservices\EDU.User\EDU.User.csproj", "{EA0FEA19-609A-4FA7-BD07-890A14560337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{1333A25F-3403-4B03-AEE2-43F20CE1B4BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1333A25F-3403-4B03-AEE2-43F20CE1B4BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1333A25F-3403-4B03-AEE2-43F20CE1B4BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0FEA19-609A-4FA7-BD07-890A14560337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0FEA19-609A-4FA7-BD07-890A14560337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0FEA19-609A-4FA7-BD07-890A14560337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0FEA19-609A-4FA7-BD07-890A14560337}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{1A76F0EB-1E0A-4728-8E0A-B3B41138A3DF} = {3C41CE07-6EBB-40A5-A03D-80862F387E59}
 		{E54C7BF3-562A-4EAB-9568-9685ECD4CFB7} = {3C41CE07-6EBB-40A5-A03D-80862F387E59}
 		{1333A25F-3403-4B03-AEE2-43F20CE1B4BA} = {7BCCF524-288B-442D-A687-1BBC03840E97}
+		{EA0FEA19-609A-4FA7-BD07-890A14560337} = {EEB97031-9A92-46E6-8043-A67D78095C80}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CF4E56E-52C1-4DEA-8F7A-EA4DF5764CE2}

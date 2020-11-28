@@ -1,0 +1,9 @@
+E:\EDU\Models\EDU.DataModel\bin\Debug\netcoreapp3.1\EDU.DataModel.deps.json
+E:\EDU\Models\EDU.DataModel\bin\Debug\netcoreapp3.1\EDU.DataModel.dll
+E:\EDU\Models\EDU.DataModel\bin\Debug\netcoreapp3.1\EDU.DataModel.pdb
+E:\EDU\Models\EDU.DataModel\obj\Debug\netcoreapp3.1\EDU.DataModel.AssemblyInfoInputs.cache
+E:\EDU\Models\EDU.DataModel\obj\Debug\netcoreapp3.1\EDU.DataModel.AssemblyInfo.cs
+E:\EDU\Models\EDU.DataModel\obj\Debug\netcoreapp3.1\EDU.DataModel.csproj.CoreCompileInputs.cache
+E:\EDU\Models\EDU.DataModel\obj\Debug\netcoreapp3.1\EDU.DataModel.dll
+E:\EDU\Models\EDU.DataModel\obj\Debug\netcoreapp3.1\EDU.DataModel.pdb
+E:\EDU\Models\EDU.DataModel\obj\Debug\netcoreapp3.1\EDU.DataModel.csprojAssemblyReference.cache

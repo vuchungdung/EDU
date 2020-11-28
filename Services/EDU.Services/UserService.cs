@@ -47,47 +47,6 @@ namespace EDU.Services
                 throw ex;
             }
         }
-        public bool ChangeActiveStatus(string json_list_id, string updated_by, int status)
-        {
-            string msgError = "";
-            try
-            {
-                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_user_change_active_status",
-                    "@json_list_id", json_list_id,
-                    "@updated_by", updated_by,
-                    "@status", status
-                    );
-                if ((result != null && !string.IsNullOrEmpty(result.ToString())) || !string.IsNullOrEmpty(msgError))
-                {
-                    throw new Exception(Convert.ToString(result) + msgError);
-                }
-                return true;
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-
-        public bool ChangeLanguage(string user_id, char lang)
-        {
-            string msgError = "";
-            try
-            {
-                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_user_change_language",
-                    "@user_id", user_id,
-                    "@lang", lang);
-                if ((result != null && !string.IsNullOrEmpty(result.ToString())) || !string.IsNullOrEmpty(msgError))
-                {
-                    throw new Exception(Convert.ToString(result) + msgError);
-                }
-                return true;
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
         public bool Update(UserViewModel model)
         {
             string msgError = "";
@@ -114,45 +73,6 @@ namespace EDU.Services
                 throw ex;
             }
         }
-        public bool UpdateUserRole(string userId, string json, string updated_by)
-        {
-            string msgError = "";
-            try
-            {
-                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_user_update_role",
-                    "@user_id", userId,
-                    "@list_json", json,
-                    "@created_by", updated_by);
-                if ((result != null && !string.IsNullOrEmpty(result.ToString())) || !string.IsNullOrEmpty(msgError))
-                {
-                    throw new Exception(Convert.ToString(result) + msgError);
-                }
-                return true;
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-        public bool ResetPasswordDefault(string username, string new_pass)
-        {
-            string msgError = "";
-            try
-            {
-                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_user_reset_pass_default",
-                    "@user_name", username,
-                    "@password", new_pass);
-                if ((result != null && !string.IsNullOrEmpty(result.ToString())) && result.ToString() != "0" || !string.IsNullOrEmpty(msgError))
-                {
-                    throw new Exception(Convert.ToString(result) + msgError);
-                }
-                return true;
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
         public UserViewModel GetUserByUsername(string userName)
         {
             string msgError = "";
@@ -164,26 +84,6 @@ namespace EDU.Services
                     throw new Exception(msgError);
                 }
                 return dt != null ? dt.ConvertTo<UserViewModel>().ToList().FirstOrDefault() : null;
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-        public bool ChangePassword(string user_id, string password, string new_password)
-        {
-            string msgError = "";
-            try
-            {
-                var result = _dbHelper.ExecuteScalarSProcedureWithTransaction(out msgError, "sp_user_change_password",
-                    "@user_id", user_id,
-                    "@password", password,
-                    "@new_password", new_password);
-                if ((result != null && !string.IsNullOrEmpty(result.ToString())) && result.ToString() != "0" || !string.IsNullOrEmpty(msgError))
-                {
-                    throw new Exception(Convert.ToString(result) + msgError);
-                }
-                return true;
             }
             catch (Exception ex)
             {
