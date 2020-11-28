@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using EDU.Common.Helper.Interfaces;
 
 namespace EDU.Common.Helper
 {

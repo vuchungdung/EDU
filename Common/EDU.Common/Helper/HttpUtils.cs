@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using EDU.Common.Message;
+using EDU.Common.MediaTypes;
 
 namespace EDU.Common.Helper
 {

@@ -1,10 +1,12 @@
-﻿using CachingFramework.Redis;
+﻿
+using CachingFramework.Redis;
+using EDU.Common.Caching.Interfaces;
 using MessagePack;
 using Microsoft.Extensions.Configuration;
 using NLog;
 using System;
-using System.Threading.Tasks;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace EDU.Common.Caching
 {
