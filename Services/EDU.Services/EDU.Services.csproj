@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -7,10 +7,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Common\EDU.Common\EDU.Common.csproj" />
     <ProjectReference Include="..\..\Models\EDU.DataModel\EDU.DataModel.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
   </ItemGroup>
 
 </Project>
